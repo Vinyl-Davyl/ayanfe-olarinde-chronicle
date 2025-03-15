@@ -27,6 +27,15 @@ Ayanfe’s work focuses on the Yoruba pantheon of deities, or _Orishas_, and the
 - **Human Imperfection**: Celebrating flaws and imperfections as part of the human experience.
 
 ## 🎨 Sneak Peek
+<img width="1505" alt="Screenshot 2025-03-15 at 10 17 45 AM" src="https://github.com/user-attachments/assets/47987bfa-74ea-45c9-a988-548165b406f2" />
+<img width="1504" alt="Screenshot 2025-03-15 at 10 18 46 AM" src="https://github.com/user-attachments/assets/1c7b8c3d-7b61-4f51-a69d-cee828264aad" />
+<img width="1504" alt="Screenshot 2025-03-15 at 10 19 03 AM" src="https://github.com/user-attachments/assets/14117bac-10c4-48fa-8453-d71482325cd0" />
+<img width="1504" alt="Screenshot 2025-03-15 at 10 19 21 AM" src="https://github.com/user-attachments/assets/7f0498d2-06c9-41c0-89fb-dfee37f397dd" />
+<img width="1504" alt="Screenshot 2025-03-15 at 10 19 37 AM" src="https://github.com/user-attachments/assets/fec49b2d-a650-4f32-94ae-40076960bf9f" />
+<img width="1504" alt="Screenshot 2025-03-15 at 10 19 51 AM" src="https://github.com/user-attachments/assets/2798963f-1614-4f10-a8bb-eb2ffa191095" />
+<img width="1504" alt="Screenshot 2025-03-15 at 10 20 00 AM" src="https://github.com/user-attachments/assets/25ba060c-095e-4f16-aa3e-4ffa84a0ac03" />
+<img width="1504" alt="Screenshot 2025-03-15 at 10 20 10 AM" src="https://github.com/user-attachments/assets/5b0f2b60-ad7e-41e9-aab9-01c8fd18e4d1" />
+
 
 ## 📝 License
 
