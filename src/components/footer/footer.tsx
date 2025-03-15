@@ -53,15 +53,42 @@ const Footer = () => {
     }
   };
 
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div id="contact" className="h-screen min-h-fit pt-[10vw] px-[5vw] pb-10 bg-[var(--background)]">
       <div className="grid grid-cols-3">
         <ul className="uppercase text-[1.3vw] grid grid-cols-3 cursor-pointer">
-          <li>Home</li>
-          <li>Painting</li>
-          <li>Contact</li>
-          <li>Studio</li>
-          <li>Pictures</li>
+          <li>
+            <Link href="/" onClick={() => scrollToSection("hero")}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link href="#painting" onClick={() => scrollToSection("painting")}>
+              Painting
+            </Link>
+          </li>
+          <li>
+            <Link href="#contact" onClick={() => scrollToSection("contact")}>
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link href="#studio" onClick={() => scrollToSection("studio")}>
+              Studio
+            </Link>
+          </li>
+          <li>
+            <Link href="#pictures" onClick={() => scrollToSection("pictures")}>
+              Pictures
+            </Link>
+          </li>
         </ul>
         <div>
           <div className="w-[10vw] mx-auto">

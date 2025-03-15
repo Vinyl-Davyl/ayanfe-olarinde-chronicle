@@ -23,6 +23,7 @@ export default function Hero({
   }, []);
   return (
     <div
+      id="hero"
       ref={contentRef}
       className="w-full"
       style={{

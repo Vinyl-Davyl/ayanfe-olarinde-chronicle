@@ -21,7 +21,7 @@ const AIArt = () => {
   }, []);
 
   return (
-    <div>
+    <div id="studio">
       <div className="sticky top-0 w-1/2 h-96 ms-auto flex items-center justify-center flex-col">
         <div>
           <h1 className="w-fit text-[max(9.896vw,40px)] leading-tight" style={{ fontFamily: "SaolDisplay" }}>

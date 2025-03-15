@@ -30,7 +30,7 @@ const Painting = () => {
     });
   }, []);
   return (
-    <div>
+    <div id="painting">
       <div className="sticky z-10 top-0 w-1/2 h-96 mx-auto flex items-center justify-center flex-col">
         <h1 className="w-fit text-[max(9.896vw,40px)] leading-tight" style={{ fontFamily: "SaolDisplay" }}>
           Paintings
