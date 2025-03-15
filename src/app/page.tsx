@@ -186,7 +186,7 @@ export default function Home() {
       <Navbar onClick={handleButtonClick} />
 
       {/* Navbar overlay */}
-      <div className="h-0 relative z-50 opacity- nav__container flex justify-center items-center overflow-hidden opacity-0">
+      <div className="fixed top-0 left-0 w-full h-0 z-50 opacity-0 nav__container flex justify-center items-center overflow-hidden bg-[#212220]">
         <div className="flex flex-col gap-12 justify-center items-center">
           <GlitchText
             text="HOME"
