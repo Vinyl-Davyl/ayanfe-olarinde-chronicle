@@ -106,7 +106,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="space-y-3">
-          <span className="uppercase text-[1.3vw]">Contact me</span> &nbsp;
+          <span className="uppercase text-[1.3vw]">Contact</span> &nbsp;
           <input
             type="email"
             placeholder="enter your e-mail here"
