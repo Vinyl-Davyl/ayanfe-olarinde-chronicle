@@ -7,7 +7,7 @@ const RentRow = () => {
       <div>
         <div className="w-full">
           <Image
-            src={"/rent-row.jpg"}
+            src={"/AO30.jpg"}
             alt="Art female"
             width={0}
             height={0}
@@ -19,7 +19,7 @@ const RentRow = () => {
           />
         </div>
       </div>
-      <div className="py-10 space-y-[5vw]">
+      <div className="py-10 space-y-[2vw]">
         <h1
           className="text-[4.5vw] leading-none"
           style={{
