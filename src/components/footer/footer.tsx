@@ -44,7 +44,7 @@ const Footer = () => {
       );
   }, []);
   return (
-    <div className="h-screen min-h-fit pt-[20vw] px-[5vw] pb-10 bg-[var(--background)]">
+    <div className="h-screen min-h-fit pt-[10vw] px-[5vw] pb-10 bg-[var(--background)]">
       <div className="grid grid-cols-3">
         <ul className="uppercase text-[1.3vw] grid grid-cols-3 cursor-pointer">
           <li>Home</li>
@@ -69,10 +69,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="space-y-3">
-          <span className="uppercase text-[1.3vw]">Contact with me</span>
+          <span className="uppercase text-[1.3vw]">Contact me</span> &nbsp;
           <input
             type="email"
-            placeholder="Enter your e-mail"
+            placeholder="enter your e-mail"
             className="bg-transparent outline-none border-b border-b-white text-[1.5vw]"
           />
         </div>
@@ -84,7 +84,7 @@ const Footer = () => {
 
         <p className="text-center">
           <span className="text-white/65">Built with</span> ❤️‍🔥{" "}
-          <Link href={"https://vinyldavyl.xyz."} target="_blank" className="text-white font-semibold cursor-pointer">
+          <Link href={"https://vinyldavyl.xyz"} target="_blank" className="text-white font-semibold cursor-pointer">
             Vinyl Davyl
           </Link>
           &nbsp;
