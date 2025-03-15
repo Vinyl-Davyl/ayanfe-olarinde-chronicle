@@ -35,7 +35,7 @@ const ArtWork = () => {
 
         {/* Split text */}
         <div className="font-semibold text-white w-full overflow-hidden h-fit absolute bottom-[10vw] text-center overflow-hidde z-10 flex justify-center gap-5">
-          <SplitText className="scale_slideup_text_1">AYANFE&apos;S</SplitText>
+          <SplitText className="scale_slideup_text_1">OLA&apos;S</SplitText>
           <SplitText className="scale_slideup_text_2">ARTWORKS</SplitText>
         </div>
 
