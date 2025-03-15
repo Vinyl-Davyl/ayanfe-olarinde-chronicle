@@ -43,6 +43,16 @@ const Footer = () => {
         "<"
       );
   }, []);
+
+  const handleEmailSubmit = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "Enter") {
+      const email = event.currentTarget.value.trim();
+      if (email) {
+        window.location.href = `mailto:helloayanfe@gmail.com`;
+      }
+    }
+  };
+
   return (
     <div id="contact" className="h-screen min-h-fit pt-[10vw] px-[5vw] pb-10 bg-[var(--background)]">
       <div className="grid grid-cols-3">
@@ -72,8 +82,9 @@ const Footer = () => {
           <span className="uppercase text-[1.3vw]">Contact me</span> &nbsp;
           <input
             type="email"
-            placeholder="enter your e-mail"
-            className="bg-transparent outline-none border-b border-b-white text-[1.5vw]"
+            placeholder="enter your e-mail here"
+            className="bg-transparent outline-none border-b border-b-white text-[1.5vw] text-center placeholder:text-center"
+            onKeyDown={handleEmailSubmit}
           />
         </div>
       </div>
