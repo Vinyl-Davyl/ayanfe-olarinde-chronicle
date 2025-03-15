@@ -15,6 +15,7 @@ import Pictures from "@/components/pictures/pictures";
 import RentRow from "@/components/rent-row/rent-row";
 import Footer from "@/components/footer/footer";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import GlitchText from "@/components/glitch/glitch-text";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -169,6 +170,14 @@ export default function Home() {
     startLoader();
   }, []);
 
+  const scrollToContact = () => {
+    const footer = document.querySelector("footer");
+    if (footer) {
+      footer.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsAnimating(false); // Close nav
+  };
+
   return (
     <div className="w-full">
       {/* Preloader */}
@@ -179,12 +188,8 @@ export default function Home() {
 
       <div className="h-0 relative z-50 opacity- nav__container flex justify-center items-center overflow-hidden opacity-0">
         <div className="flex flex-col gap-12 justify-center items-center">
-          <h1 className="text-8xl" style={{ fontFamily: "SaolDisplay" }}>
-            HOME
-          </h1>
-          <h1 className="text-8xl" style={{ fontFamily: "SaolDisplay" }}>
-            CONTACT
-          </h1>
+          <GlitchText text="HOME" href="/" onClick={() => setIsAnimating(false)} />
+          <GlitchText text="CONTACT" href="#contact" onClick={scrollToContact} />
         </div>
       </div>
 
