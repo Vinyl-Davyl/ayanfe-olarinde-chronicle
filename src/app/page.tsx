@@ -9,13 +9,13 @@ import Hero from "../components/hero/hero";
 import { forwardAnimation, reverseAnimation } from "@/utils/gsap-utils";
 import About from "@/components/about/about";
 import ArtWork from "@/components/art-work/art-work";
-import AIArt from "@/components/ai-art/aiart";
 import Painting from "@/components/painting/painting";
 import Pictures from "@/components/pictures/pictures";
 import RentRow from "@/components/rent-row/rent-row";
 import Footer from "@/components/footer/footer";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import GlitchText from "@/components/glitch/glitch-text";
+import Studio from "@/components/studio/studio";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -220,7 +220,7 @@ export default function Home() {
       <ArtWork />
 
       {/* AI Art section */}
-      <AIArt />
+      <Studio />
 
       {/* Painting section */}
       <Painting />

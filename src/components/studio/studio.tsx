@@ -6,7 +6,7 @@ import { useLayoutEffect } from "react";
 
 gsap.registerPlugin(ScrollTrigger); // Register plugin
 
-const AIArt = () => {
+const Studio = () => {
   useLayoutEffect(() => {
     gsap.to(".art_1", {
       y: -50,
@@ -97,4 +97,4 @@ const AIArt = () => {
   );
 };
 
-export default AIArt;
+export default Studio;
