@@ -56,8 +56,8 @@ export default function Hero({
           </div>
           <div className="text-base text-right">
             <p className="hero-para max-w-xs uppercase ms-[16.458vw] pt-24">
-              A visionary artist, both photographer and painter, harnesses the power of AI to enhance his surrealistic
-              art.
+              A visionary artist, both photographer and painter, harnesses the power of tales to enhance her
+              surrealistic art.
             </p>
           </div>
         </div>

@@ -34,9 +34,9 @@ const About = () => {
         </div>
         <div className="uppercase text-[max(1.146vw,22px)] my-auto">
           <div className="reveal_text max-w-[31rem] overflow-hidden 2xl:max-w-[50rem] [&>div:first-child]:ms-64">
-            I&apos;m an artist known for my surreal and sensual artworks, combining photography and oil painting. Based
-            in Ibiza, I capture the beauty and complexity of the female form, using both traditional and AI-enhanced
-            techniques to create timeless pieces that explore themes of perfection and desire.
+            Ayanfe Olarinde is a Nigerian artist who revives Yoruba folklore through her work, blending history and
+            self-discovery. Bred in Lagos, she explores themes of identity, gender, and human imperfection, using
+            vibrant paintings to reclaim cultural narratives and inspire future generations.
           </div>
         </div>
       </div>
