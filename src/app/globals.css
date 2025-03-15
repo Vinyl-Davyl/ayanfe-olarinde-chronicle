@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #212220;
+    --foreground: #ededed;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #212220;
+        --foreground: #ededed;
+    }
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
