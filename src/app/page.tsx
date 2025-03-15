@@ -57,6 +57,14 @@ export default function Home() {
     setIsAnimating(!isAnimating); // Toggle state
   };
 
+  const scrollToContact = () => {
+    const footer = document.querySelector("footer");
+    if (footer) {
+      footer.scrollIntoView({ behavior: "smooth" });
+    }
+    handleButtonClick(); // Close the navbar
+  };
+
   function animateAfterLoader() {
     document.body.style.overflow = "";
     document.body.setAttribute("data-lenis-prevent", "false");
@@ -67,7 +75,6 @@ export default function Home() {
       ease: "power3.inOut",
     });
     gsap.to(contentRef.current, {
-      // marginTop: 0,
       y: 0,
       duration: 1.5,
       ease: "power3.inOut",
@@ -170,14 +177,6 @@ export default function Home() {
     startLoader();
   }, []);
 
-  const scrollToContact = () => {
-    const footer = document.querySelector("footer");
-    if (footer) {
-      footer.scrollIntoView({ behavior: "smooth" });
-    }
-    setIsAnimating(false); // Close nav
-  };
-
   return (
     <div className="w-full">
       {/* Preloader */}
@@ -186,14 +185,22 @@ export default function Home() {
       {/* Navbar */}
       <Navbar onClick={handleButtonClick} />
 
+      {/* Navbar overlay */}
       <div className="h-0 relative z-50 opacity- nav__container flex justify-center items-center overflow-hidden opacity-0">
         <div className="flex flex-col gap-12 justify-center items-center">
-          <GlitchText text="HOME" href="/" onClick={() => setIsAnimating(false)} />
+          <GlitchText
+            text="HOME"
+            href="/"
+            onClick={() => {
+              setIsAnimating(false); // Reset animation state
+              handleButtonClick(); // Close the navbar
+            }}
+          />
           <GlitchText text="CONTACT" href="#contact" onClick={scrollToContact} />
         </div>
       </div>
 
-      {/* Navbar overlay */}
+      {/* Strips */}
       <Strips stripsRef={stripsRef} />
 
       {/* Hero */}
