@@ -45,8 +45,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 **Ayanfe Olarinde**
 
-- Website: [ayanfeolarinde.com](#)
-- Instagram: [@ayanfeolarinde](https://instagram.com/ayanfeolarinde)
+- Website: [ayanfe-olarinde.vinyldavyl.xyz](https://ayanfe-olarinde.vinyldavyl.xyz)
+- Instagram: [@ayanfe.ol](https://instagram.com/ayanfe.ol)
 - Email: hello@ayanfeolarinde.com
 
 ## Support
