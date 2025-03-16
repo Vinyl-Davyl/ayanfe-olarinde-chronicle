@@ -219,7 +219,7 @@ export default function Home() {
       {/* Art works section */}
       <ArtWork />
 
-      {/* AI Art section */}
+      {/* Studio section */}
       <Studio />
 
       {/* Painting section */}
